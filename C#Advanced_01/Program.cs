@@ -39,6 +39,17 @@
         //    b = temp;
         //} 
         #endregion
+        #region Q5 method
+        //public T FindMax<T>(T first, T second) where T : IComparable<T>
+        //{
+        //    // CompareTo returns > 0 if the first is greater than the second
+        //    if (first.CompareTo(second) > 0)
+        //    {
+        //        return first;
+        //    }
+        //    return second;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Q1
@@ -59,6 +70,7 @@
             //class and allows the method to process different data types seamlessly.
 
             #endregion
+
 
         }
     }
