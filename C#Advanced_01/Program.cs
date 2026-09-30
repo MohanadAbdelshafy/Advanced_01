@@ -37,6 +37,12 @@
     //    void Delete(T entity);
     //}
     #endregion
+    #region Q7 class
+    //public class MathCalculator<T> where T : struct
+    //{
+    //    public T Value { get; set; }
+    //} 
+    #endregion
     internal class Program
     {
         #region Q4 method
@@ -81,6 +87,9 @@
             #region Q6
             //A generic interface defines a contract with generic type parameters. Any class implementing this interface must provide the specific 
             //type or remain generic itself.
+            #endregion
+            #region Q7
+            //The where T : struct constraint ensures that the generic type parameter T must be a non-nullable value type
             #endregion
 
         }
