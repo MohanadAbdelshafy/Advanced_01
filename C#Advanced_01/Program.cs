@@ -198,6 +198,10 @@
             //Contravariance is the exact opposite of covariance. It allows you to use a more generic (less derived) type than originally specified.
             //The 'in' Keyword: By declaring a type parameter with the in keyword you tell the compiler that T will only be used as an input (method parameter) and never as a return type.
             #endregion
+            #region Q17
+            //Covariance (out): Preserves assignment compatibility. It lets you return a derived type where a base type is expected.
+            //Contravariance (in): Reverses assignment compatibility. It lets you pass a base type where a derived type is expected.
+            #endregion
         }
     }
 }
