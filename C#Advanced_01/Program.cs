@@ -52,6 +52,15 @@
     //    }
     //}
     #endregion
+    #region Q9 Class
+    //public class Factory<T> where T : new()
+    //{
+    //    public T CreateInstance()
+    //    {
+    //        return new T();
+    //    }
+    //}
+    #endregion
     internal class Program
     {
         #region Q4 method
@@ -102,6 +111,10 @@
             #endregion
             #region Q8
             //The where T : class constraint ensures that the generic type parameter T must be a reference type
+            #endregion
+            #region Q9
+            //The where T : new() constraint requires that the generic type T must have a public, parameterless constructor (a default constructor).
+            //This allows the generic class/method to create new instances of T.
             #endregion
 
         }
