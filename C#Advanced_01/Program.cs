@@ -165,6 +165,10 @@
             //You can apply multiple constraints to a single generic type by separating them with commas. The order matters: the base class constraint must come first, followed by
             // interface constraints, and the new() constraint must be placed last.
             #endregion
+            #region Q13
+            //The default keyword returns the default value for the generic type T. Since the compiler doesn't know in advance whether T 
+            //will be a reference type or a value type 
+            #endregion
 
         }
     }
