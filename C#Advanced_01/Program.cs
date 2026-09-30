@@ -119,6 +119,53 @@
     //    }
     //}
     #endregion
+    #region Q20
+    //public class Cache<TKey, TValue>
+    //{
+    //    private class CacheItem
+    //    {
+    //        public TValue Value { get; set; }
+    //        public DateTime ExpirationTime { get; set; }
+    //    }
+
+    //    private Dictionary<TKey, CacheItem> _store = new Dictionary<TKey, CacheItem>();
+    //    public void Add(TKey key, TValue value, TimeSpan lifespan)
+    //    {
+    //        _store[key] = new CacheItem
+    //        {
+    //            Value = value,
+    //            ExpirationTime = DateTime.Now.Add(lifespan)
+    //        };
+    //    }
+    //    public bool Contains(TKey key)
+    //    {
+    //        if (_store.TryGetValue(key, out CacheItem item))
+    //        {
+    //            if (DateTime.Now <= item.ExpirationTime)
+    //            {
+    //                return true; 
+    //            }
+    //            else
+    //            {
+    //                _store.Remove(key); 
+    //            }
+    //        }
+    //        return false;
+    //    }
+    //    public TValue? Get(TKey key)
+    //    {
+    //        if (Contains(key))
+    //        {
+    //            return _store[key].Value;
+    //        }
+    //        return default;
+    //    }
+    //    public void Remove(TKey key)
+    //    {
+    //        _store.Remove(key);
+    //    }
+    //}
+    #endregion
     internal class Program
     {
         #region Q4 method
@@ -210,6 +257,7 @@
             //By keeping it generic: The child class accepts a generic type and passes it to the parent.
             //By specifying a concrete type: The child class is not generic; it specifically defines the parent's type.
             #endregion
+
         }
     }
 }
