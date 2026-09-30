@@ -1,5 +1,21 @@
 ﻿namespace C_Advanced_01
 {
+    #region Q2 container
+    //public class Container<T>
+    //{
+    //    private T _item;
+
+    //    public void Add(T item)
+    //    {
+    //        _item = item;
+    //    }
+
+    //    public T Get()
+    //    {
+    //        return _item;
+    //    }
+    //}
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
