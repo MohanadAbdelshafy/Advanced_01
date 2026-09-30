@@ -61,6 +61,20 @@
     //    }
     //}
     #endregion
+    #region Q10
+    //public interface IPrintable
+    //{
+    //    void Print();
+    //}
+
+    //public class DocumentPrinter<T> where T : IPrintable
+    //{
+    //    public void PrintDocument(T document)
+    //    {
+    //        document.Print(); // Guaranteed to exist because of the constraint
+    //    }
+    //}
+    #endregion
     internal class Program
     {
         #region Q4 method
@@ -115,6 +129,10 @@
             #region Q9
             //The where T : new() constraint requires that the generic type T must have a public, parameterless constructor (a default constructor).
             //This allows the generic class/method to create new instances of T.
+            #endregion
+            #region Q10
+            //The interface constraint restricts the generic type parameter so that it must implement a specific interface.
+
             #endregion
 
         }
