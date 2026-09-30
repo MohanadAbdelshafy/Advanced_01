@@ -194,6 +194,10 @@
             //Covariance allows you to use a more derived (specific) type than originally specified. In C#, it is applied to generic interfaces and delegates.
             //The 'out' Keyword: By declaring a type parameter with the out keyword you tell the compiler that T will only be used as an output (return type) and never as an input (method parameter). 
             #endregion
+            #region Q16
+            //Contravariance is the exact opposite of covariance. It allows you to use a more generic (less derived) type than originally specified.
+            //The 'in' Keyword: By declaring a type parameter with the in keyword you tell the compiler that T will only be used as an input (method parameter) and never as a return type.
+            #endregion
         }
     }
 }
