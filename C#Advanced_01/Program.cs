@@ -31,6 +31,14 @@
     #endregion
     internal class Program
     {
+        #region Q4 method
+        //public void Swap<T>(ref T a, ref T b)
+        //{
+        //    T temp = a;
+        //    a = b;
+        //    b = temp;
+        //} 
+        #endregion
         static void Main(string[] args)
         {
             #region Q1
@@ -44,6 +52,11 @@
             #region Q3
             //Generics can accept more than one type parameter, separated by commas. This is useful when a class or 
             //method needs to handle two or more distinct types simultaneously (like a dictionary key and its value).
+
+            #endregion
+            #region Q4
+            //A generic method is a method that is declared with type parameters. It can exist inside a generic or non-generic 
+            //class and allows the method to process different data types seamlessly.
 
             #endregion
 
