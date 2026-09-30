@@ -16,6 +16,19 @@
     //    }
     //}
     #endregion
+    #region Q3 class
+    //public class Pair<TKey, TValue>
+    //{
+    //    public TKey Key { get; set; }
+    //    public TValue Value { get; set; }
+
+    //    public Pair(TKey key, TValue value)
+    //    {
+    //        Key = key;
+    //        Value = value;
+    //    }
+    //}
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
@@ -27,6 +40,11 @@
             //Type Safety: It prevents runtime type-casting errors by enforcing type checks at compile-time.
             //Performance: It avoids the overhead of boxing and unboxing when using value types.
             //Code Reusability: You write the logic once and use it with multiple different data types.
+            #endregion
+            #region Q3
+            //Generics can accept more than one type parameter, separated by commas. This is useful when a class or 
+            //method needs to handle two or more distinct types simultaneously (like a dictionary key and its value).
+
             #endregion
 
         }
