@@ -206,6 +206,10 @@
             //Static members in a generic class are not shared globally across all instances of the generic class. Instead, they are shared only among instances 
             //of the exact same constructed type.
             #endregion
+            #region Q19
+            //By keeping it generic: The child class accepts a generic type and passes it to the parent.
+            //By specifying a concrete type: The child class is not generic; it specifically defines the parent's type.
+            #endregion
         }
     }
 }
