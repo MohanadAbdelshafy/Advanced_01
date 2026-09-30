@@ -43,6 +43,15 @@
     //    public T Value { get; set; }
     //} 
     #endregion
+    #region Q8
+    //public class ObjectProcessor<T> where T : class
+    //{
+    //    public void ProcessObject(T obj)
+    //    {
+    //        if (obj != null) { /* Do something */ }
+    //    }
+    //}
+    #endregion
     internal class Program
     {
         #region Q4 method
@@ -90,6 +99,9 @@
             #endregion
             #region Q7
             //The where T : struct constraint ensures that the generic type parameter T must be a non-nullable value type
+            #endregion
+            #region Q8
+            //The where T : class constraint ensures that the generic type parameter T must be a reference type
             #endregion
 
         }
