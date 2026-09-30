@@ -190,7 +190,10 @@
             //The default keyword returns the default value for the generic type T. Since the compiler doesn't know in advance whether T 
             //will be a reference type or a value type 
             #endregion
-
+            #region Q15
+            //Covariance allows you to use a more derived (specific) type than originally specified. In C#, it is applied to generic interfaces and delegates.
+            //The 'out' Keyword: By declaring a type parameter with the out keyword you tell the compiler that T will only be used as an output (return type) and never as an input (method parameter). 
+            #endregion
         }
     }
 }
