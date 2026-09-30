@@ -86,6 +86,18 @@
     //    }
     //} 
     #endregion
+    #region Q12
+    //public interface IIdentifiable { int Id { get; } }
+    //public class EntityBase { }
+
+    //public class Repository<T> where T : EntityBase, IIdentifiable, new()
+    //{
+    //    public T CreateNewEntity()
+    //    {
+    //        return new T(); 
+    //    }
+    //}
+    #endregion
     internal class Program
     {
         #region Q4 method
@@ -148,6 +160,10 @@
             #region Q11
             //The base class constraint dictates that the generic type parameter T must be a specific class or derived from that specific class. It allows you to
             //access the methods and properties of that base class inside the generic class or method. 
+            #endregion
+            #region Q12
+            //You can apply multiple constraints to a single generic type by separating them with commas. The order matters: the base class constraint must come first, followed by
+            // interface constraints, and the new() constraint must be placed last.
             #endregion
 
         }
