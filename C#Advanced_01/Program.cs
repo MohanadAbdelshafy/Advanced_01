@@ -29,6 +29,14 @@
     //    }
     //}
     #endregion
+    #region Q6 Interface
+    //public interface IRepository<T>
+    //{
+    //    void Add(T entity);
+    //    T GetById(int id);
+    //    void Delete(T entity);
+    //}
+    #endregion
     internal class Program
     {
         #region Q4 method
@@ -70,7 +78,10 @@
             //class and allows the method to process different data types seamlessly.
 
             #endregion
-
+            #region Q6
+            //A generic interface defines a contract with generic type parameters. Any class implementing this interface must provide the specific 
+            //type or remain generic itself.
+            #endregion
 
         }
     }
