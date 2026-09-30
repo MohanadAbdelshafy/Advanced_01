@@ -202,6 +202,10 @@
             //Covariance (out): Preserves assignment compatibility. It lets you return a derived type where a base type is expected.
             //Contravariance (in): Reverses assignment compatibility. It lets you pass a base type where a derived type is expected.
             #endregion
+            #region Q18
+            //Static members in a generic class are not shared globally across all instances of the generic class. Instead, they are shared only among instances 
+            //of the exact same constructed type.
+            #endregion
         }
     }
 }
