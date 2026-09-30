@@ -75,6 +75,17 @@
     //    }
     //}
     #endregion
+    #region Q11
+    //public class Animal { public string Name { get; set; } }
+
+    //public class AnimalShelter<T> where T : Animal
+    //{
+    //    public void PrintName(T animal)
+    //    {
+    //        Console.WriteLine(animal.Name);
+    //    }
+    //} 
+    #endregion
     internal class Program
     {
         #region Q4 method
@@ -133,6 +144,10 @@
             #region Q10
             //The interface constraint restricts the generic type parameter so that it must implement a specific interface.
 
+            #endregion
+            #region Q11
+            //The base class constraint dictates that the generic type parameter T must be a specific class or derived from that specific class. It allows you to
+            //access the methods and properties of that base class inside the generic class or method. 
             #endregion
 
         }
